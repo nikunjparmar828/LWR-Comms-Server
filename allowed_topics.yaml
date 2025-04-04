@@ -1,2 +1,6 @@
-allowed_topics:
-  - scan
+allowed_publish_topics:
+  - "/cmd_vel"
+
+allowed_subscribe_topics:
+  - "/bender/cmd_vel"
+  - "/flexo/cmd_vel"
